@@ -1,0 +1,67 @@
+package com.xworks.programs.runner;
+
+import java.nio.charset.StandardCharsets;
+
+public class StringconcRunner {
+
+	
+
+public static void main(String[] args) {
+	String string1=new String();
+	System.out.println(string1);
+	
+	byte[] bytes = {72, 101, 108, 108, 111};
+	String string2=new String(bytes);
+	System.out.println(string2);
+	
+	
+    String string3 = new String(bytes, StandardCharsets.UTF_8);
+    System.out.println("String from UTF-8 bytes: " + string3);
+    
+    char[] charArray = {'J', 'a', 'v', 'a'};
+    
+    String string4 = new String(charArray);
+    System.out.println("Constructor 4: " + string4);
+    
+    String string5 = new String(charArray, 1, 3);
+    System.out.println("Constructor 5: " + string5);
+    
+    
+    String string6 = new String("Hello, World!");
+    System.out.println("Constructor 6: " + string6);
+
+    
+    StringBuilder string7 = new StringBuilder();
+    string7.append("Hello, ");
+    string7.append("world!");
+    
+    // Convert the StringBuilder to a String using the String(StringBuilder builder) constructor
+    String resultString = new String(string7);
+    
+    // Output the result
+    System.out.println("String created from StringBuilder: " + resultString);
+    
+    StringBuffer string8=new StringBuffer();
+    string8.append("Hello, ");
+    string8.append("world!");
+    
+    // Convert the StringBuffer to a String using the String(StringBuffer buffer) constructor
+    String result = new String(string7);
+    
+    // Output the result
+    System.out.println("String created from StringBuffer: " + result);
+    
+    
+    int[] codePoints = { 72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100, 33 };
+
+    // Create a String from the entire array
+    String fullString = new String(codePoints, 0, codePoints.length);
+    System.out.println("Full String: " + fullString);
+
+    // Create a String from a subset of the array
+    // For example, extract "Hello World"
+    String subsetString = new String(codePoints, 0, 5); // "Hello World"
+    System.out.println("Subset String: " + subsetString);
+}
+
+}

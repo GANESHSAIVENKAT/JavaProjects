@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1722404729636_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1722404729650_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726212136647_3" label="JavaProjects" name="JavaProjects">
+<item elementID="=inheritence" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=task" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=multilevel" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=project" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=cars" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=dynamicdispatcher" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=task2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=programs" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=task02-08-2024" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=test\(07-08-24)" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=application1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Arraytask" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=projectH" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=application" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Encapsulation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pub-application" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=castings" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=curd-operation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=has-a-relation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=methods 4ways" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=phonenumber" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=voterid-application" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1722404743752_2" label="Window Working Set" name="Aggregate for window 1722404743752"/>
+<mruList name="JavaProjects"/>
+</workingSetManager>

@@ -1,0 +1,12 @@
+package com.xworks.programs.test;
+
+public interface Resume {
+
+	void addResumeDetails();
+	void addPersonalDetails();
+	void addProjectDetails();
+	void addHobbiesDetails();
+	void addEducationDetails();
+	void addTechnicalDetails();
+	
+}

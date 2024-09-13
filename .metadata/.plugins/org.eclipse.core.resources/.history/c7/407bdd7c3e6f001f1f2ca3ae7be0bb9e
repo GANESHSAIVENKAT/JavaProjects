@@ -1,0 +1,23 @@
+package com.google.xworkz.testrunner;
+
+
+public class ConditionRunner {
+	int index=0;
+	String[] stringArray;
+	
+	
+	public ConditionRunner(int arraysize) {
+		this.stringArray=new String[arraysize];
+	}
+	public static String onsave(String sentence) {
+		if(sentence!=null && sentence.isEmpty()&&sentence.length()<16&&sentence.length()>3&&sentence.startsWith("s")&&sentence.endsWith("a")) {
+			
+		}
+		return "Save done";
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

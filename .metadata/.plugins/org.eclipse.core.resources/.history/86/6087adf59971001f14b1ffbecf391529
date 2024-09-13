@@ -1,0 +1,41 @@
+package com.xworks.programs.test;
+
+public class Ganesh implements Resume {
+
+	@Override
+	public void addResumeDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addPersonalDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addProjectDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addHobbiesDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addEducationDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addTechnicalDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

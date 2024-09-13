@@ -1,0 +1,18 @@
+package com.xworks.programs.test;
+
+public interface Resume {
+
+	final String name="Ganesh";
+	static long contact=8309809043L;
+	final String mail="Ganeshsai224466@gmail.com";
+
+		
+	
+	void addResumeDetails();
+	void addPersonalDetails();
+	void addProjectDetails();
+	void addHobbiesDetails();
+	void addEducationDetails();
+	void addTechnicalDetails();
+	
+}
